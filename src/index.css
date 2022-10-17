@@ -1,0 +1,33 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+*, x::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  
+  /* color-scheme: light dark !important;
+  color: rgba(255, 255, 255, 0.87) !important;
+  background-color: #242424 !important; */
+}
+
+body {
+  color: #213547
+  /* display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh; */
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+}
